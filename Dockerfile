@@ -9,5 +9,6 @@ RUN apk add --update ca-certificates openssl tar && \
 
 VOLUME /data
 EXPOSE 2379 2380 4001 7001
-add run.sh /bin/run.sh
+ADD run.sh /bin/run.sh
+RUN chmod -R 755 /bin/run.sh
 ENTRYPOINT ["/bin/run.sh"]
