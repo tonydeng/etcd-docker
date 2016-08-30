@@ -1,4 +1,4 @@
-FORM alpine:latest
+FROM alpine:latest
 
 RUN apk add --update ca-certificates openssl tar && \
     wget https://github.com/coreos/etcd/releases/download/v3.0.6/etcd-v3.0.6-linux-amd64.tar.gz && \
