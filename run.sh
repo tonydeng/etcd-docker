@@ -2,7 +2,7 @@
 
 # check for $CLIENT_URLS
 if [ -z ${CLIENT_URLS+x} ]; then
-    CLIENT_URLS="http://0.0.0.0:4001,http://0.0.0.0/2379"
+    CLIENT_URLS="http://0.0.0.0:4001,http://0.0.0.0:2379"
     echo "Using default CLIENT_URLS ($CLIENT_URLS)"
 else
     echo "Detected new CLIENT_URLS value of $CLIENT_URLS"
