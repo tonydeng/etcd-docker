@@ -1,4 +1,8 @@
 # Alpine Linux Etcd3 Docker Container
+[![Docker Stars](https://img.shields.io/docker/stars/wolfdeng/etcd-docker.svg)](https://hub.docker.com/r/wolfdeng/etcd-docker/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/wolfdeng/etcd-docker.svg)](https://hub.docker.com/r/wolfdeng/etcd-docker/)
+[![Image Size](https://img.shields.io/imagelayers/image-size/wolfdeng/etcd-docker/latest.svg)](https://imagelayers.io/?images=wolfdeng/etcd-docker:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/wolfdeng/etcd-docker/latest.svg)](https://imagelayers.io/?images=wolfdeng/etcd-docker:latest)
 
 利用Alpine Linux打造的小体积的ETCD Docker镜像。
 
